@@ -1,0 +1,54 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+
+.background-container {
+    height: 100vh;
+    background-image: url("https://editor.analyticsvidhya.com/uploads/76811wp7461543-fake-news-wallpapers.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transparent-box {
+    background-color: rgba(16, 11, 11, 0.6); /* White background with 60% opacity */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    height: 50%;
+    width: 60%;
+}
+
+.transparent-box h1, .transparent-box p {
+    margin: 5%;
+    color: white; /* Text color */
+    
+}
+
+
+
+p{
+    padding-top:1%;
+    font-size: 25px;
+    padding-left:10%;
+    padding-right:10%;
+}
+
+#button{
+    margin-top:3%;
+    padding:12px;
+    width: 10%;
+}
+
+h1{
+    font-weight:bold;
+    font-size: 50px;
+}
+
+button a{
+    font-size: 17px;
+}
